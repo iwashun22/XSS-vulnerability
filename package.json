@@ -1,7 +1,7 @@
 {
-  "name": "secret-board",
+  "name": "nn-chat",
   "version": "1.0.0",
-  "description": "秘密の匿名掲示板",
+  "description": "NNチャット",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cookies": "0.8.0",
     "dayjs": "1.10.4",
     "http-auth": "^4.1.9",
     "pg": "8.5.1",

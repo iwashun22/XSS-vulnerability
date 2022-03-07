@@ -15,7 +15,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: secret_board
+      POSTGRES_DB: nn_chat
       TZ: "Asia/Tokyo"
     volumes:
-      - ../secret-board-db:/var/lib/postgresql/data
+      - ../nn-chat-db:/var/lib/postgresql/data
